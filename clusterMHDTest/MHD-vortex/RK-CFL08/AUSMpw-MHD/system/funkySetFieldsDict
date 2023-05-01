@@ -1,0 +1,67 @@
+FoamFile
+{
+    version         2.0;
+    format          ascii;
+
+
+    instance        "system";
+    local           "";
+
+    class           dictionary;
+    object          funkySetFieldsDict;
+}
+
+
+expressions
+(
+
+
+	regiao_1
+	{
+		field U;
+		expression "vector(-sin(pos().y) , sin(pos().x) , 0)"; 
+
+ 
+	}
+
+
+
+	regiao_1
+	{
+		field p;
+		expression "1.667"; 
+
+	}
+
+
+	regiao_1
+	{
+		field T;
+		expression "0.3";
+
+ 
+	}
+
+
+	regiao_1
+	{
+		field Bx;
+	        expression "-sin(pos().y)"; 
+
+ 
+	}
+
+
+	regiao_1
+	{
+		field By;
+	       expression " sin(2*pos().x)"; 
+
+ 
+	}
+
+
+
+	);
+
+

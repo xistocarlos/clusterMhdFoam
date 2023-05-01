@@ -1,0 +1,25 @@
+FORMAT
+type: ensight gold
+
+GEOMETRY
+model:        1     200.0000.mesh
+
+VARIABLE
+scalar per element:            1       By              200.****.By
+scalar per element:            1       rho             200.****.rho
+scalar per element:            1       pB              200.****.pB
+scalar per element:            1       p               200.****.p
+scalar per element:            1       T               200.****.T
+scalar per element:            1       divBf           200.****.divBf
+scalar per element:            1       Bz              200.****.Bz
+scalar per element:            1       gamma           200.****.gamma
+scalar per element:            1       Bx              200.****.Bx
+vector per element:            1       U               200.****.U
+
+TIME
+time set:                      1
+number of steps:               1
+filename start number:         0
+filename increment:            1
+time values:
+3.14000e+00  

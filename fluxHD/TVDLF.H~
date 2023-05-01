@@ -1,0 +1,87 @@
+/*
+=============================================================================
+TVDLF FLUX START
+
+ This subroutine computes the TVDLF flux for the Euler equations
+ in the direction, S=[Sx,Sy,Sz].
+ Conservative form of the Euler equations:
+
+     dU/dt + dF/dx + dG/dy + dH/dz = 0
+
+
+     Fn = F*Sx + G*Sy + H*Sz = | rho*Uf          |
+                               | rho*Uf*u + p*Sx |
+                               | rho*Uf*v + p*Sy |
+                               | rho*Uf*w + p*Sz |
+                               | rho*Uf*H        |    (Uf = u*Sx + v*Sy + w*Sz)
+
+The flux function is given by:
+
+F(i+1/2) = 1/2*[Fn(UL) + Fn(UR) cmax*(UR-UL)]
+
+where: cmax is the local maximumal physical propagation speed:
+
+    cmax= max(|ULf|+aL,|URf|+aR) or cmax=1/2*[mag(ULf+URf)+(aL+aR)];
+
+This method is diffusive, but extremely robust. It can be emplyed for
+computing zero-beta plasma flow (in MHD version).
+
+Authors: Carlos Xisto (xisto@ubi.pt)
+Date:1-10-2014
+=============================================================================
+*/
+
+void TVDLFFlux (
+              const vector &Sf,
+              const scalar &magSf,
+              const scalar &rhoL,  const scalar &rhoR,
+              const vector &rhoUL, const vector &rhoUR,
+              const vector &UL,    const vector &UR,
+              const scalar &pL,    const scalar &pR,
+              const scalar &rhoEL, const scalar &rhoER,
+              const scalar &gammaL, const scalar &gammaR,
+              scalar &rhoflux,   vector &rhoUflux,
+              scalar &rhoEflux, scalar &cfmax
+               )
+{
+
+
+
+//-------------------Direction Spliting Uf = U & Sf--------------------------------
+const vector Sf_unit = Sf/magSf;
+
+const scalar ULf = UL & Sf_unit;
+const scalar URf = UR & Sf_unit;
+
+
+
+//-------FAST Wave SPEED------------------------------------------------------------
+const scalar    aL = Foam::sqrt(gammaL*pL/rhoL);
+const scalar    aR = Foam::sqrt(gammaR*pR/rhoR);
+// const scalar    lambdaMax = 0.5*mag(ULf+URf)+0.5*(aL+aR);//divergiu em M elevados Filipe
+ const scalar lambdaMax=max(mag(ULf)+aL,mag(URf)+aR);
+
+
+
+//CONTINUITY FLUX
+rhoflux = 0.5*(URf*rhoL  + ULf*rhoR  - lambdaMax*(rhoR-rhoL))*magSf;
+
+
+//MOMENTUM FLUX
+ rhoUflux = 0.5*( ULf*rhoUL + URf*rhoUR  + (pL+pR)*Sf_unit
+         - lambdaMax*(rhoUR-rhoUL))*magSf;
+
+
+//ENERGY FLUX
+  rhoEflux = 0.5*(ULf*(rhoEL+pL) + URf*(rhoER+pR)
+           - lambdaMax*(rhoER-rhoEL))*magSf;
+
+
+
+  cfmax =lambdaMax*magSf;
+
+//============================================================================
+//                   TVDLF END
+//============================================================================
+
+}

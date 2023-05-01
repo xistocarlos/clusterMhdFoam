@@ -1,0 +1,74 @@
+FoamFile
+{
+    version         2.0;
+    format          ascii;
+
+
+    instance        "system";
+    local           "";
+
+    class           dictionary;
+    object          funkySetFieldsDict;
+}
+
+
+expressions
+(
+
+
+	regiao_1
+	{
+		field U;
+		expression "vector(-10,0,0)";
+              condition "pos().x >0.5";
+ 
+	}
+
+	regiao_2
+	{
+		field U;
+		expression "vector(10,0,0)";
+              condition "pos().x <=0.5";
+ 
+	}
+
+	regiao_1
+	{
+		field p;
+		expression "1";
+              condition "pos().x >0.5";
+ 
+	}
+
+	regiao_2
+	{
+		field p;
+		expression "20";
+              condition "pos().x <=0.5";
+ 
+	}
+
+	regiao_1
+	{
+		field T;
+		expression "0.5";
+              condition "pos().x >0.5";
+ 
+	}
+
+	regiao_2
+	{
+		field T;
+		expression "10";
+              condition "pos().x <=0.5";
+ 
+	}
+
+
+
+
+
+
+	);
+
+

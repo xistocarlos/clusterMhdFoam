@@ -1,0 +1,1815 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.2.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.2.x-1ef4d132e582
+Exec   : clusterMHDFoam
+Date   : Feb 13 2015
+Time   : 17:00:52
+Host   : "compute-0-4.local"
+PID    : 10244
+Case   : /home/xisto/OpenFOAM/xisto-2.2.x/run/ShockTUBE-Ryu/5a
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+fluxScheme is: AUSMup-MHD
+AUSMupPlus and Kurganov not working with MHD
+
+Reading thermodynamicProperties
+
+Reading transportProperties
+
+Reading field p
+
+Reading field T
+
+Reading field U
+
+Reading field B components
+
+Courant Number mean: 0 max: 0
+
+Starting time loop
+
+Courant Number mean: 0 max: 0
+deltaT = 1.2e-08
+Time = 1.2e-08
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.44e-08
+Time = 2.64e-08
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.72799e-08
+Time = 4.36799e-08
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.07359e-08
+Time = 6.44158e-08
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.48831e-08
+Time = 8.92989e-08
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.98597e-08
+Time = 1.19159e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 3.58316e-08
+Time = 1.5499e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 4.29979e-08
+Time = 1.97988e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 5.15972e-08
+Time = 2.49585e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 6.19164e-08
+Time = 3.11502e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 7.42996e-08
+Time = 3.85801e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 8.91589e-08
+Time = 4.7496e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.0699e-07
+Time = 5.8195e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.28387e-07
+Time = 7.10337e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.54063e-07
+Time = 8.644e-07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.84875e-07
+Time = 1.04927e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.21849e-07
+Time = 1.27112e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.66214e-07
+Time = 1.53734e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 3.1945e-07
+Time = 1.85679e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 3.83335e-07
+Time = 2.24012e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 4.59984e-07
+Time = 2.70011e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 5.51971e-07
+Time = 3.25208e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 6.62343e-07
+Time = 3.91442e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 7.94791e-07
+Time = 4.70921e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 9.53658e-07
+Time = 5.66287e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.1443e-06
+Time = 6.80717e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.37307e-06
+Time = 8.18024e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.64746e-06
+Time = 9.8277e-06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.97669e-06
+Time = 1.18044e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.37193e-06
+Time = 1.41763e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.84577e-06
+Time = 1.70221e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 3.41415e-06
+Time = 2.04362e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 4.0967e-06
+Time = 2.45329e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 4.91402e-06
+Time = 2.9447e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 5.89625e-06
+Time = 3.53432e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 7.07215e-06
+Time = 4.24154e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 8.48176e-06
+Time = 5.08971e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.01729e-05
+Time = 6.107e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.2195e-05
+Time = 7.3265e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.46196e-05
+Time = 8.78847e-05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 1.75126e-05
+Time = 0.000105397
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.10076e-05
+Time = 0.000126405
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 2.51877e-05
+Time = 0.000151593
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 3.02098e-05
+Time = 0.000181802
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 3.62295e-05
+Time = 0.000218032
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 4.3283e-05
+Time = 0.000261315
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 5.18015e-05
+Time = 0.000313117
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 6.20954e-05
+Time = 0.000375212
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 7.40368e-05
+Time = 0.000449249
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 8.84329e-05
+Time = 0.000537682
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000105137
+Time = 0.000642819
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000124762
+Time = 0.000767581
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.00014891
+Time = 0.000916491
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000178108
+Time = 0.0010946
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000212033
+Time = 0.00130663
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000248382
+Time = 0.00155501
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.06 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000291206
+Time = 0.00184622
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000339741
+Time = 0.00218596
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000390702
+Time = 0.00257666
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000463959
+Time = 0.00304062
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000535337
+Time = 0.00357596
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000642404
+Time = 0.00421836
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000722705
+Time = 0.00494107
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000843155
+Time = 0.00578422
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000843155
+Time = 0.00662738
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000843155
+Time = 0.00747053
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000843155
+Time = 0.00831369
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000843155
+Time = 0.00915684
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.000843155
+Time = 0.01
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.09 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.001
+Time = 0.011
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.09 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.001125
+Time = 0.012125
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.09 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.0013125
+Time = 0.0134375
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.09 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.0013125
+Time = 0.01475
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.09 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.0013125
+Time = 0.0160625
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.09 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.0013125
+Time = 0.017375
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.1 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.0013125
+Time = 0.0186875
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.1 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.0013125
+Time = 0.02
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.1 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.00142857
+Time = 0.0214286
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.1 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.00171429
+Time = 0.0231429
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.11 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.00171429
+Time = 0.0248571
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.11 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.00171429
+Time = 0.0265714
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.11 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.00171429
+Time = 0.0282857
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.11 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.00171429
+Time = 0.03
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.11 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.032
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.12 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.034
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.12 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.036
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.12 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.038
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.12 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.04
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.13 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.042
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.13 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.044
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.13 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.046
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.13 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.048
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.13 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.05
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.15 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.052
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.15 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.054
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.15 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.056
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.16 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.058
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.16 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.06
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.16 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.062
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.16 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.064
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.16 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.066
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.16 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.068
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.17 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.07
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.17 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.072
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.18 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.074
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.18 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.076
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.18 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.078
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.18 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.08
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.19 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.082
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.19 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.084
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.19 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.086
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.19 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.088
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.19 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.09
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.21 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.092
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.21 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.094
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.21 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.096
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.21 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.098
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.21 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0 max: 0
+deltaT = 0.002
+Time = 0.1
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for By, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Bz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUx, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoUz, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rhoE, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.22 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+End
+

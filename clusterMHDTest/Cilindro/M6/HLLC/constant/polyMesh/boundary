@@ -1,0 +1,46 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    location    "constant/polyMesh";
+    class       polyBoundaryMesh;
+    object      boundary;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+5
+(
+    Inlet
+    {
+        type patch;
+        nFaces 119;
+        startFace 28084;
+    }
+    cilindro
+    {
+        type wall;
+        nFaces 119;
+        startFace 28203;
+    }
+    front_back
+    {
+        type empty;
+        nFaces 28322;
+        startFace 28322;
+    }
+    outlet
+    {
+        type patch;
+        nFaces 119;
+        startFace 56644;
+    }
+    simetria
+    {
+        type wall;
+        nFaces 119;
+        startFace 56763;
+    }
+)
+
+// ************************************************************************* //

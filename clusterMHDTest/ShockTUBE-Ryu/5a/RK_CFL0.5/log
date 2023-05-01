@@ -1,0 +1,7605 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : clusterMHDRk4
+Date   : Feb 16 2015
+Time   : 15:30:18
+Host   : "xisto-UBIPC"
+PID    : 16937
+Case   : /home/xisto/OpenFOAM/xisto-2.3.0/run/ShockTUBE-Ryu/5a/RK_CFL0.5
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+fluxScheme is: AUSMpw-MHD
+AUSMupPlus and Kurganov not working with MHD
+
+Reading thermodynamicProperties
+
+Reading transportProperties
+
+Reading field p
+
+Reading field T
+
+Reading field U
+
+Reading field B components
+
+Courant Number mean: 0 max: 0
+
+Starting time loop
+
+Courant Number mean: 2.87929e-05 max: 8.04249e-05
+deltaT = 1.2e-08
+Time = 1.2e-08
+
+ExecutionTime = 0.02 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 3.45514e-05 max: 9.65098e-05
+deltaT = 1.44e-08
+Time = 2.64e-08
+
+ExecutionTime = 0.03 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 4.14617e-05 max: 0.000115812
+deltaT = 1.72799e-08
+Time = 4.36799e-08
+
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 4.97539e-05 max: 0.000138974
+deltaT = 2.07359e-08
+Time = 6.44158e-08
+
+ExecutionTime = 0.04 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 5.97046e-05 max: 0.000166768
+deltaT = 2.48831e-08
+Time = 8.92989e-08
+
+ExecutionTime = 0.05 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 7.16455e-05 max: 0.000200122
+deltaT = 2.98597e-08
+Time = 1.19159e-07
+
+ExecutionTime = 0.06 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 8.59745e-05 max: 0.000240146
+deltaT = 3.58316e-08
+Time = 1.5499e-07
+
+ExecutionTime = 0.07 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000103169 max: 0.000288175
+deltaT = 4.29979e-08
+Time = 1.97988e-07
+
+ExecutionTime = 0.07 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000123803 max: 0.00034581
+deltaT = 5.15972e-08
+Time = 2.49585e-07
+
+ExecutionTime = 0.08 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000148563 max: 0.00041497
+deltaT = 6.19164e-08
+Time = 3.11502e-07
+
+ExecutionTime = 0.09 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000178275 max: 0.000497962
+deltaT = 7.42996e-08
+Time = 3.85801e-07
+
+ExecutionTime = 0.1 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00021393 max: 0.000597554
+deltaT = 8.91589e-08
+Time = 4.7496e-07
+
+ExecutionTime = 0.11 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000256714 max: 0.000717059
+deltaT = 1.0699e-07
+Time = 5.8195e-07
+
+ExecutionTime = 0.12 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000308055 max: 0.000860468
+deltaT = 1.28387e-07
+Time = 7.10337e-07
+
+ExecutionTime = 0.13 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000369662 max: 0.00103255
+deltaT = 1.54063e-07
+Time = 8.644e-07
+
+ExecutionTime = 0.13 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00044359 max: 0.00123905
+deltaT = 1.84875e-07
+Time = 1.04927e-06
+
+ExecutionTime = 0.14 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000532306 max: 0.00148685
+deltaT = 2.21849e-07
+Time = 1.27112e-06
+
+ExecutionTime = 0.15 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000638765 max: 0.00178422
+deltaT = 2.66214e-07
+Time = 1.53734e-06
+
+ExecutionTime = 0.16 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000766504 max: 0.00214102
+deltaT = 3.1945e-07
+Time = 1.85679e-06
+
+ExecutionTime = 0.16 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.000919785 max: 0.00256917
+deltaT = 3.83335e-07
+Time = 2.24012e-06
+
+ExecutionTime = 0.17 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00110373 max: 0.00308297
+deltaT = 4.59984e-07
+Time = 2.70011e-06
+
+ExecutionTime = 0.17 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00132442 max: 0.00369942
+deltaT = 5.51971e-07
+Time = 3.25208e-06
+
+ExecutionTime = 0.18 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00158927 max: 0.00443922
+deltaT = 6.62343e-07
+Time = 3.91442e-06
+
+ExecutionTime = 0.19 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00190706 max: 0.00532689
+deltaT = 7.94791e-07
+Time = 4.70921e-06
+
+ExecutionTime = 0.2 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00228841 max: 0.0063921
+deltaT = 9.53658e-07
+Time = 5.66287e-06
+
+ExecutionTime = 0.2 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00274583 max: 0.00766979
+deltaT = 1.1443e-06
+Time = 6.80717e-06
+
+ExecutionTime = 0.21 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00329473 max: 0.00920304
+deltaT = 1.37307e-06
+Time = 8.18024e-06
+
+ExecutionTime = 0.22 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0039534 max: 0.0110429
+deltaT = 1.64746e-06
+Time = 9.8277e-06
+
+ExecutionTime = 0.23 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00474341 max: 0.0132496
+deltaT = 1.97669e-06
+Time = 1.18044e-05
+
+ExecutionTime = 0.23 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00569133 max: 0.0158975
+deltaT = 2.37193e-06
+Time = 1.41763e-05
+
+ExecutionTime = 0.24 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00682929 max: 0.0190762
+deltaT = 2.84577e-06
+Time = 1.70221e-05
+
+ExecutionTime = 0.25 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00819356 max: 0.0228871
+deltaT = 3.41415e-06
+Time = 2.04362e-05
+
+ExecutionTime = 0.26 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.00982997 max: 0.0274583
+deltaT = 4.0967e-06
+Time = 2.45329e-05
+
+ExecutionTime = 0.26 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0117951 max: 0.0329477
+deltaT = 4.91402e-06
+Time = 2.9447e-05
+
+ExecutionTime = 0.27 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0141482 max: 0.039521
+deltaT = 5.89625e-06
+Time = 3.53432e-05
+
+ExecutionTime = 0.29 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.016976 max: 0.0474205
+deltaT = 7.07215e-06
+Time = 4.24154e-05
+
+ExecutionTime = 0.29 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0203613 max: 0.0568777
+deltaT = 8.48176e-06
+Time = 5.08971e-05
+
+ExecutionTime = 0.3 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0244194 max: 0.0682145
+deltaT = 1.01729e-05
+Time = 6.107e-05
+
+ExecutionTime = 0.31 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0292879 max: 0.0818155
+deltaT = 1.2195e-05
+Time = 7.3265e-05
+
+ExecutionTime = 0.32 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.035109 max: 0.0980782
+deltaT = 1.46196e-05
+Time = 8.78847e-05
+
+ExecutionTime = 0.32 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0420887 max: 0.117578
+deltaT = 1.75126e-05
+Time = 0.000105397
+
+ExecutionTime = 0.33 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0504163 max: 0.140845
+deltaT = 2.10076e-05
+Time = 0.000126405
+
+ExecutionTime = 0.34 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0604769 max: 0.168954
+deltaT = 2.51877e-05
+Time = 0.000151593
+
+ExecutionTime = 0.34 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0725089 max: 0.202572
+deltaT = 3.02098e-05
+Time = 0.000181802
+
+ExecutionTime = 0.35 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.0869641 max: 0.242962
+deltaT = 3.62295e-05
+Time = 0.000218032
+
+ExecutionTime = 0.36 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.10429 max: 0.291376
+deltaT = 4.3283e-05
+Time = 0.000261315
+
+ExecutionTime = 0.37 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.124591 max: 0.348103
+deltaT = 5.18015e-05
+Time = 0.000313117
+
+ExecutionTime = 0.37 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.149108 max: 0.416613
+deltaT = 6.20954e-05
+Time = 0.000375212
+
+ExecutionTime = 0.38 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.178732 max: 0.499402
+deltaT = 7.29151e-05
+Time = 0.000448127
+
+ExecutionTime = 0.39 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.209868 max: 0.586419
+deltaT = 8.37884e-05
+Time = 0.000531915
+
+ExecutionTime = 0.4 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.241155 max: 0.673867
+deltaT = 9.46808e-05
+Time = 0.000626596
+
+ExecutionTime = 0.4 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.272485 max: 0.76147
+deltaT = 0.000105319
+Time = 0.000731915
+
+ExecutionTime = 0.41 s  ClockTime = 0 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.303069 max: 0.847028
+deltaT = 0.000111664
+Time = 0.000843579
+
+ExecutionTime = 0.42 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321293 max: 0.898054
+deltaT = 0.000111664
+Time = 0.000955243
+
+ExecutionTime = 0.43 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32127 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00106691
+
+ExecutionTime = 0.43 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321258 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00117857
+
+ExecutionTime = 0.44 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321246 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00129023
+
+ExecutionTime = 0.45 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321233 max: 0.898054
+deltaT = 0.000111664
+Time = 0.0014019
+
+ExecutionTime = 0.46 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321221 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00151356
+
+ExecutionTime = 0.46 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321204 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00162522
+
+ExecutionTime = 0.47 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321192 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00173689
+
+ExecutionTime = 0.48 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321178 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00184855
+
+ExecutionTime = 0.49 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32116 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00196022
+
+ExecutionTime = 0.49 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321141 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00207188
+
+ExecutionTime = 0.5 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321119 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00218354
+
+ExecutionTime = 0.51 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321104 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00229521
+
+ExecutionTime = 0.52 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32109 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00240687
+
+ExecutionTime = 0.52 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321078 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00251853
+
+ExecutionTime = 0.53 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321065 max: 0.898054
+deltaT = 0.000111664
+Time = 0.0026302
+
+ExecutionTime = 0.54 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321051 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00274186
+
+ExecutionTime = 0.55 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321035 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00285353
+
+ExecutionTime = 0.56 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321025 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00296519
+
+ExecutionTime = 0.56 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.321011 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00307685
+
+ExecutionTime = 0.57 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320999 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00318852
+
+ExecutionTime = 0.58 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320984 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00330018
+
+ExecutionTime = 0.59 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320968 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00341184
+
+ExecutionTime = 0.59 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320951 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00352351
+
+ExecutionTime = 0.6 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32093 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00363517
+
+ExecutionTime = 0.61 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320917 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00374683
+
+ExecutionTime = 0.62 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320901 max: 0.898054
+deltaT = 0.000111664
+Time = 0.0038585
+
+ExecutionTime = 0.62 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320887 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00397016
+
+ExecutionTime = 0.63 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320871 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00408183
+
+ExecutionTime = 0.64 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320855 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00419349
+
+ExecutionTime = 0.65 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320839 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00430515
+
+ExecutionTime = 0.65 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320829 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00441682
+
+ExecutionTime = 0.66 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320818 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00452848
+
+ExecutionTime = 0.67 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320808 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00464014
+
+ExecutionTime = 0.68 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320794 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00475181
+
+ExecutionTime = 0.68 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32078 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00486347
+
+ExecutionTime = 0.69 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320765 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00497513
+
+ExecutionTime = 0.7 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320745 max: 0.898054
+deltaT = 0.000111664
+Time = 0.0050868
+
+ExecutionTime = 0.71 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320728 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00519846
+
+ExecutionTime = 0.71 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320716 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00531013
+
+ExecutionTime = 0.72 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320706 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00542179
+
+ExecutionTime = 0.73 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320694 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00553345
+
+ExecutionTime = 0.74 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320684 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00564512
+
+ExecutionTime = 0.75 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320672 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00575678
+
+ExecutionTime = 0.75 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320654 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00586844
+
+ExecutionTime = 0.76 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320646 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00598011
+
+ExecutionTime = 0.77 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32064 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00609177
+
+ExecutionTime = 0.78 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320632 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00620344
+
+ExecutionTime = 0.78 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320621 max: 0.898054
+deltaT = 0.000111664
+Time = 0.0063151
+
+ExecutionTime = 0.79 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320608 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00642676
+
+ExecutionTime = 0.8 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320592 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00653843
+
+ExecutionTime = 0.81 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320571 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00665009
+
+ExecutionTime = 0.81 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320561 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00676175
+
+ExecutionTime = 0.82 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320552 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00687342
+
+ExecutionTime = 0.83 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320543 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00698508
+
+ExecutionTime = 0.84 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320533 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00709674
+
+ExecutionTime = 0.84 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320521 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00720841
+
+ExecutionTime = 0.85 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320505 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00732007
+
+ExecutionTime = 0.86 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320491 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00743174
+
+ExecutionTime = 0.87 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320487 max: 0.898054
+deltaT = 0.000111664
+Time = 0.0075434
+
+ExecutionTime = 0.88 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32048 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00765506
+
+ExecutionTime = 0.88 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32047 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00776673
+
+ExecutionTime = 0.89 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320457 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00787839
+
+ExecutionTime = 0.9 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32044 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00799005
+
+ExecutionTime = 0.9 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320419 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00810172
+
+ExecutionTime = 0.91 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320405 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00821338
+
+ExecutionTime = 0.92 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320396 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00832504
+
+ExecutionTime = 0.93 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320388 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00843671
+
+ExecutionTime = 0.93 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32038 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00854837
+
+ExecutionTime = 0.94 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32037 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00866004
+
+ExecutionTime = 0.95 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320357 max: 0.898054
+deltaT = 0.000111664
+Time = 0.0087717
+
+ExecutionTime = 0.96 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.32034 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00888336
+
+ExecutionTime = 0.96 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320336 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00899503
+
+ExecutionTime = 0.97 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320333 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00910669
+
+ExecutionTime = 0.98 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320325 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00921835
+
+ExecutionTime = 0.99 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320316 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00933002
+
+ExecutionTime = 1 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320302 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00944168
+
+ExecutionTime = 1 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320285 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00955335
+
+ExecutionTime = 1.01 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320267 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00966501
+
+ExecutionTime = 1.02 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320258 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00977667
+
+ExecutionTime = 1.03 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320251 max: 0.898054
+deltaT = 0.000111664
+Time = 0.00988834
+
+ExecutionTime = 1.04 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320243 max: 0.898054
+deltaT = 0.000111664
+Time = 0.01
+
+ExecutionTime = 1.05 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.320234 max: 0.898054
+deltaT = 0.000111111
+Time = 0.0101111
+
+ExecutionTime = 1.06 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318637 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0102222
+
+ExecutionTime = 1.06 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31862 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0103333
+
+ExecutionTime = 1.07 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318614 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0104444
+
+ExecutionTime = 1.08 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318609 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0105556
+
+ExecutionTime = 1.09 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318601 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0106667
+
+ExecutionTime = 1.1 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318591 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0107778
+
+ExecutionTime = 1.1 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318577 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0108889
+
+ExecutionTime = 1.11 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318559 max: 0.89361
+deltaT = 0.000111111
+Time = 0.011
+
+ExecutionTime = 1.12 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318541 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0111111
+
+ExecutionTime = 1.13 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318532 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0112222
+
+ExecutionTime = 1.14 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318524 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0113333
+
+ExecutionTime = 1.15 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318515 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0114444
+
+ExecutionTime = 1.16 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318505 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0115556
+
+ExecutionTime = 1.16 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318492 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0116667
+
+ExecutionTime = 1.17 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318476 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0117778
+
+ExecutionTime = 1.18 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318468 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0118889
+
+ExecutionTime = 1.19 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318461 max: 0.89361
+deltaT = 0.000111111
+Time = 0.012
+
+ExecutionTime = 1.2 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318451 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0121111
+
+ExecutionTime = 1.2 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31844 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0122222
+
+ExecutionTime = 1.21 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318424 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0123333
+
+ExecutionTime = 1.22 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318405 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0124444
+
+ExecutionTime = 1.23 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31839 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0125556
+
+ExecutionTime = 1.23 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318381 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0126667
+
+ExecutionTime = 1.24 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318373 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0127778
+
+ExecutionTime = 1.25 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318363 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0128889
+
+ExecutionTime = 1.26 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318353 max: 0.89361
+deltaT = 0.000111111
+Time = 0.013
+
+ExecutionTime = 1.27 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318341 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0131111
+
+ExecutionTime = 1.27 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318327 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0132222
+
+ExecutionTime = 1.28 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318321 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0133333
+
+ExecutionTime = 1.29 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318313 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0134444
+
+ExecutionTime = 1.3 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318303 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0135556
+
+ExecutionTime = 1.3 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318291 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0136667
+
+ExecutionTime = 1.31 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318275 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0137778
+
+ExecutionTime = 1.32 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318256 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0138889
+
+ExecutionTime = 1.33 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318243 max: 0.89361
+deltaT = 0.000111111
+Time = 0.014
+
+ExecutionTime = 1.34 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318232 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0141111
+
+ExecutionTime = 1.34 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318223 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0142222
+
+ExecutionTime = 1.35 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318211 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0143333
+
+ExecutionTime = 1.36 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3182 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0144444
+
+ExecutionTime = 1.37 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318186 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0145556
+
+ExecutionTime = 1.37 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318171 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0146667
+
+ExecutionTime = 1.38 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318164 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0147778
+
+ExecutionTime = 1.39 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318156 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0148889
+
+ExecutionTime = 1.4 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318146 max: 0.89361
+deltaT = 0.000111111
+Time = 0.015
+
+ExecutionTime = 1.41 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318134 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0151111
+
+ExecutionTime = 1.41 s  ClockTime = 1 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318117 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0152222
+
+ExecutionTime = 1.42 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318097 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0153333
+
+ExecutionTime = 1.43 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318086 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0154444
+
+ExecutionTime = 1.44 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318075 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0155556
+
+ExecutionTime = 1.44 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318065 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0156667
+
+ExecutionTime = 1.45 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318052 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0157778
+
+ExecutionTime = 1.46 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318039 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0158889
+
+ExecutionTime = 1.47 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318026 max: 0.89361
+deltaT = 0.000111111
+Time = 0.016
+
+ExecutionTime = 1.48 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318011 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0161111
+
+ExecutionTime = 1.48 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.318004 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0162222
+
+ExecutionTime = 1.49 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317996 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0163333
+
+ExecutionTime = 1.5 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317986 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0164444
+
+ExecutionTime = 1.51 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317975 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0165556
+
+ExecutionTime = 1.52 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31796 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0166667
+
+ExecutionTime = 1.52 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317941 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0167778
+
+ExecutionTime = 1.53 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31793 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0168889
+
+ExecutionTime = 1.54 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317921 max: 0.89361
+deltaT = 0.000111111
+Time = 0.017
+
+ExecutionTime = 1.55 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317911 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0171111
+
+ExecutionTime = 1.55 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317899 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0172222
+
+ExecutionTime = 1.56 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317888 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0173333
+
+ExecutionTime = 1.57 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317875 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0174444
+
+ExecutionTime = 1.58 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317861 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0175556
+
+ExecutionTime = 1.59 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317855 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0176667
+
+ExecutionTime = 1.6 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317847 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0177778
+
+ExecutionTime = 1.6 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317837 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0178889
+
+ExecutionTime = 1.61 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317826 max: 0.89361
+deltaT = 0.000111111
+Time = 0.018
+
+ExecutionTime = 1.62 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31781 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0181111
+
+ExecutionTime = 1.63 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317791 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0182222
+
+ExecutionTime = 1.63 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317778 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0183333
+
+ExecutionTime = 1.64 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317769 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0184444
+
+ExecutionTime = 1.65 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317759 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0185556
+
+ExecutionTime = 1.66 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317748 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0186667
+
+ExecutionTime = 1.66 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317736 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0187778
+
+ExecutionTime = 1.67 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317724 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0188889
+
+ExecutionTime = 1.68 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317708 max: 0.89361
+deltaT = 0.000111111
+Time = 0.019
+
+ExecutionTime = 1.69 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317701 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0191111
+
+ExecutionTime = 1.7 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317694 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0192222
+
+ExecutionTime = 1.7 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317684 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0193333
+
+ExecutionTime = 1.71 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317672 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0194444
+
+ExecutionTime = 1.72 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317656 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0195556
+
+ExecutionTime = 1.73 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317639 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0196667
+
+ExecutionTime = 1.74 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317623 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0197778
+
+ExecutionTime = 1.74 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317613 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0198889
+
+ExecutionTime = 1.75 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317604 max: 0.89361
+deltaT = 0.000111111
+Time = 0.02
+
+ExecutionTime = 1.77 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317594 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0201111
+
+ExecutionTime = 1.78 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317584 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0202222
+
+ExecutionTime = 1.79 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317572 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0203333
+
+ExecutionTime = 1.8 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317558 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0204444
+
+ExecutionTime = 1.81 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31755 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0205556
+
+ExecutionTime = 1.82 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317543 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0206667
+
+ExecutionTime = 1.83 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317534 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0207778
+
+ExecutionTime = 1.83 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317523 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0208889
+
+ExecutionTime = 1.84 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317509 max: 0.89361
+deltaT = 0.000111111
+Time = 0.021
+
+ExecutionTime = 1.85 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317491 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0211111
+
+ExecutionTime = 1.86 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317475 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0212222
+
+ExecutionTime = 1.86 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317466 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0213333
+
+ExecutionTime = 1.87 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317457 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0214444
+
+ExecutionTime = 1.88 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317446 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0215556
+
+ExecutionTime = 1.89 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317435 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0216667
+
+ExecutionTime = 1.89 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317423 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0217778
+
+ExecutionTime = 1.9 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317409 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0218889
+
+ExecutionTime = 1.91 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3174 max: 0.89361
+deltaT = 0.000111111
+Time = 0.022
+
+ExecutionTime = 1.92 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317393 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0221111
+
+ExecutionTime = 1.92 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317383 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0222222
+
+ExecutionTime = 1.93 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317372 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0223333
+
+ExecutionTime = 1.93 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317357 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0224444
+
+ExecutionTime = 1.94 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317338 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0225556
+
+ExecutionTime = 1.95 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317322 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0226667
+
+ExecutionTime = 1.96 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317312 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0227778
+
+ExecutionTime = 1.97 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317303 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0228889
+
+ExecutionTime = 1.97 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317292 max: 0.89361
+deltaT = 0.000111111
+Time = 0.023
+
+ExecutionTime = 1.98 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317279 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0231111
+
+ExecutionTime = 1.99 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317267 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0232222
+
+ExecutionTime = 2 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317253 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0233333
+
+ExecutionTime = 2 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317244 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0234444
+
+ExecutionTime = 2.01 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317238 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0235556
+
+ExecutionTime = 2.02 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317229 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0236667
+
+ExecutionTime = 2.03 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317218 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0237778
+
+ExecutionTime = 2.04 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317203 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0238889
+
+ExecutionTime = 2.04 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317185 max: 0.89361
+deltaT = 0.000111111
+Time = 0.024
+
+ExecutionTime = 2.05 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317169 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0241111
+
+ExecutionTime = 2.06 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31716 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0242222
+
+ExecutionTime = 2.07 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317151 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0243333
+
+ExecutionTime = 2.07 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31714 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0244444
+
+ExecutionTime = 2.08 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317128 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0245556
+
+ExecutionTime = 2.1 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317116 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0246667
+
+ExecutionTime = 2.1 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317101 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0247778
+
+ExecutionTime = 2.11 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317092 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0248889
+
+ExecutionTime = 2.12 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317085 max: 0.89361
+deltaT = 0.000111111
+Time = 0.025
+
+ExecutionTime = 2.13 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317076 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0251111
+
+ExecutionTime = 2.13 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317065 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0252222
+
+ExecutionTime = 2.14 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31705 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0253333
+
+ExecutionTime = 2.15 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317033 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0254444
+
+ExecutionTime = 2.16 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317016 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0255556
+
+ExecutionTime = 2.17 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.317006 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0256667
+
+ExecutionTime = 2.17 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316997 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0257778
+
+ExecutionTime = 2.18 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316986 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0258889
+
+ExecutionTime = 2.18 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316973 max: 0.89361
+deltaT = 0.000111111
+Time = 0.026
+
+ExecutionTime = 2.19 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316961 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0261111
+
+ExecutionTime = 2.2 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316946 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0262222
+
+ExecutionTime = 2.21 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316936 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0263333
+
+ExecutionTime = 2.22 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316929 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0264444
+
+ExecutionTime = 2.23 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316919 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0265556
+
+ExecutionTime = 2.24 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316908 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0266667
+
+ExecutionTime = 2.24 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316895 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0267778
+
+ExecutionTime = 2.25 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316878 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0268889
+
+ExecutionTime = 2.26 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316861 max: 0.89361
+deltaT = 0.000111111
+Time = 0.027
+
+ExecutionTime = 2.27 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316852 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0271111
+
+ExecutionTime = 2.28 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316843 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0272222
+
+ExecutionTime = 2.28 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316833 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0273333
+
+ExecutionTime = 2.29 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31682 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0274444
+
+ExecutionTime = 2.3 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316809 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0275556
+
+ExecutionTime = 2.31 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316795 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0276667
+
+ExecutionTime = 2.31 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316784 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0277778
+
+ExecutionTime = 2.32 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316778 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0278889
+
+ExecutionTime = 2.33 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31677 max: 0.89361
+deltaT = 0.000111111
+Time = 0.028
+
+ExecutionTime = 2.34 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31676 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0281111
+
+ExecutionTime = 2.35 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316747 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0282222
+
+ExecutionTime = 2.35 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31673 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0283333
+
+ExecutionTime = 2.36 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316711 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0284444
+
+ExecutionTime = 2.37 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316702 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0285556
+
+ExecutionTime = 2.37 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316693 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0286667
+
+ExecutionTime = 2.38 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316683 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0287778
+
+ExecutionTime = 2.39 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316672 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0288889
+
+ExecutionTime = 2.4 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31666 max: 0.89361
+deltaT = 0.000111111
+Time = 0.029
+
+ExecutionTime = 2.4 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316646 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0291111
+
+ExecutionTime = 2.41 s  ClockTime = 2 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316634 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0292222
+
+ExecutionTime = 2.42 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316627 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0293333
+
+ExecutionTime = 2.43 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316619 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0294444
+
+ExecutionTime = 2.44 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316609 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0295556
+
+ExecutionTime = 2.44 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316597 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0296667
+
+ExecutionTime = 2.45 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31658 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0297778
+
+ExecutionTime = 2.46 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316559 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0298889
+
+ExecutionTime = 2.47 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316549 max: 0.89361
+deltaT = 0.000111111
+Time = 0.03
+
+ExecutionTime = 2.48 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31654 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0301111
+
+ExecutionTime = 2.49 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316532 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0302222
+
+ExecutionTime = 2.5 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31652 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0303333
+
+ExecutionTime = 2.51 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316509 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0304444
+
+ExecutionTime = 2.52 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316496 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0305556
+
+ExecutionTime = 2.52 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316482 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0306667
+
+ExecutionTime = 2.53 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316475 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0307778
+
+ExecutionTime = 2.54 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316468 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0308889
+
+ExecutionTime = 2.55 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316457 max: 0.89361
+deltaT = 0.000111111
+Time = 0.031
+
+ExecutionTime = 2.55 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316446 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0311111
+
+ExecutionTime = 2.56 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31643 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0312222
+
+ExecutionTime = 2.57 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316412 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0313333
+
+ExecutionTime = 2.58 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3164 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0314444
+
+ExecutionTime = 2.59 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316391 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0315556
+
+ExecutionTime = 2.59 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316381 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0316667
+
+ExecutionTime = 2.6 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316369 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0317778
+
+ExecutionTime = 2.61 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316358 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0318889
+
+ExecutionTime = 2.62 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316346 max: 0.89361
+deltaT = 0.000111111
+Time = 0.032
+
+ExecutionTime = 2.62 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31633 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0321111
+
+ExecutionTime = 2.63 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316323 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0322222
+
+ExecutionTime = 2.64 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316316 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0323333
+
+ExecutionTime = 2.64 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316306 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0324444
+
+ExecutionTime = 2.65 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316295 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0325556
+
+ExecutionTime = 2.66 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316279 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0326667
+
+ExecutionTime = 2.67 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316261 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0327778
+
+ExecutionTime = 2.68 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316247 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0328889
+
+ExecutionTime = 2.68 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316236 max: 0.89361
+deltaT = 0.000111111
+Time = 0.033
+
+ExecutionTime = 2.69 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316227 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0331111
+
+ExecutionTime = 2.7 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316215 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0332222
+
+ExecutionTime = 2.71 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316203 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0333333
+
+ExecutionTime = 2.71 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316191 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0334444
+
+ExecutionTime = 2.72 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316176 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0335556
+
+ExecutionTime = 2.73 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316169 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0336667
+
+ExecutionTime = 2.74 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316161 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0337778
+
+ExecutionTime = 2.75 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316152 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0338889
+
+ExecutionTime = 2.75 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316141 max: 0.89361
+deltaT = 0.000111111
+Time = 0.034
+
+ExecutionTime = 2.76 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316126 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0341111
+
+ExecutionTime = 2.77 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316108 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0342222
+
+ExecutionTime = 2.78 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316093 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0343333
+
+ExecutionTime = 2.79 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316083 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0344444
+
+ExecutionTime = 2.79 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316074 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0345556
+
+ExecutionTime = 2.8 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316063 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0346667
+
+ExecutionTime = 2.81 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316052 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0347778
+
+ExecutionTime = 2.82 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31604 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0348889
+
+ExecutionTime = 2.82 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316026 max: 0.89361
+deltaT = 0.000111111
+Time = 0.035
+
+ExecutionTime = 2.83 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316017 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0351111
+
+ExecutionTime = 2.84 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31601 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0352222
+
+ExecutionTime = 2.85 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.316 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0353333
+
+ExecutionTime = 2.86 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31599 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0354444
+
+ExecutionTime = 2.86 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315976 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0355556
+
+ExecutionTime = 2.87 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315959 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0356667
+
+ExecutionTime = 2.88 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315942 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0357778
+
+ExecutionTime = 2.89 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315932 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0358889
+
+ExecutionTime = 2.89 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315923 max: 0.89361
+deltaT = 0.000111111
+Time = 0.036
+
+ExecutionTime = 2.9 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315913 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0361111
+
+ExecutionTime = 2.91 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315901 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0362222
+
+ExecutionTime = 2.92 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31589 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0363333
+
+ExecutionTime = 2.93 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315874 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0364444
+
+ExecutionTime = 2.93 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315864 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0365556
+
+ExecutionTime = 2.95 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315858 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0366667
+
+ExecutionTime = 2.96 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315849 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0367778
+
+ExecutionTime = 2.96 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315838 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0368889
+
+ExecutionTime = 2.97 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315825 max: 0.89361
+deltaT = 0.000111111
+Time = 0.037
+
+ExecutionTime = 2.97 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315808 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0371111
+
+ExecutionTime = 2.98 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31579 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0372222
+
+ExecutionTime = 2.99 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315781 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0373333
+
+ExecutionTime = 3 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315772 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0374444
+
+ExecutionTime = 3.01 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315762 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0375556
+
+ExecutionTime = 3.01 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315751 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0376667
+
+ExecutionTime = 3.02 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31574 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0377778
+
+ExecutionTime = 3.03 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315726 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0378889
+
+ExecutionTime = 3.04 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315714 max: 0.89361
+deltaT = 0.000111111
+Time = 0.038
+
+ExecutionTime = 3.05 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315708 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0381111
+
+ExecutionTime = 3.05 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3157 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0382222
+
+ExecutionTime = 3.06 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31569 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0383333
+
+ExecutionTime = 3.07 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315677 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0384444
+
+ExecutionTime = 3.08 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31566 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0385556
+
+ExecutionTime = 3.08 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315641 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0386667
+
+ExecutionTime = 3.09 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315632 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0387778
+
+ExecutionTime = 3.1 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315623 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0388889
+
+ExecutionTime = 3.11 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315613 max: 0.89361
+deltaT = 0.000111111
+Time = 0.039
+
+ExecutionTime = 3.12 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315602 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0391111
+
+ExecutionTime = 3.12 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315592 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0392222
+
+ExecutionTime = 3.13 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315578 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0393333
+
+ExecutionTime = 3.14 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315565 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0394444
+
+ExecutionTime = 3.15 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315558 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0395556
+
+ExecutionTime = 3.16 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31555 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0396667
+
+ExecutionTime = 3.17 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31554 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0397778
+
+ExecutionTime = 3.18 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315528 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0398889
+
+ExecutionTime = 3.18 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315511 max: 0.89361
+deltaT = 0.000111111
+Time = 0.04
+
+ExecutionTime = 3.2 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315492 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0401111
+
+ExecutionTime = 3.21 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31548 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0402222
+
+ExecutionTime = 3.21 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315471 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0403333
+
+ExecutionTime = 3.22 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315462 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0404444
+
+ExecutionTime = 3.23 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31545 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0405556
+
+ExecutionTime = 3.24 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31544 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0406667
+
+ExecutionTime = 3.25 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315428 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0407778
+
+ExecutionTime = 3.25 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315413 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0408889
+
+ExecutionTime = 3.26 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315406 max: 0.89361
+deltaT = 0.000111111
+Time = 0.041
+
+ExecutionTime = 3.27 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315399 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0411111
+
+ExecutionTime = 3.28 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315389 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0412222
+
+ExecutionTime = 3.28 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315378 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0413333
+
+ExecutionTime = 3.29 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315362 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0414444
+
+ExecutionTime = 3.3 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315345 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0415556
+
+ExecutionTime = 3.3 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31533 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0416667
+
+ExecutionTime = 3.31 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315321 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0417778
+
+ExecutionTime = 3.32 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315311 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0418889
+
+ExecutionTime = 3.33 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3153 max: 0.89361
+deltaT = 0.000111111
+Time = 0.042
+
+ExecutionTime = 3.33 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31529 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0421111
+
+ExecutionTime = 3.34 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315278 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0422222
+
+ExecutionTime = 3.35 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315263 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0423333
+
+ExecutionTime = 3.36 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315256 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0424444
+
+ExecutionTime = 3.37 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315249 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0425556
+
+ExecutionTime = 3.37 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315239 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0426667
+
+ExecutionTime = 3.38 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315228 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0427778
+
+ExecutionTime = 3.39 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315213 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0428889
+
+ExecutionTime = 3.4 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315195 max: 0.89361
+deltaT = 0.000111111
+Time = 0.043
+
+ExecutionTime = 3.41 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31518 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0431111
+
+ExecutionTime = 3.41 s  ClockTime = 3 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315169 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0432222
+
+ExecutionTime = 3.42 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31516 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0433333
+
+ExecutionTime = 3.43 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315149 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0434444
+
+ExecutionTime = 3.44 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315138 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0435556
+
+ExecutionTime = 3.44 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315126 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0436667
+
+ExecutionTime = 3.45 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315111 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0437778
+
+ExecutionTime = 3.46 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315102 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0438889
+
+ExecutionTime = 3.47 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315095 max: 0.89361
+deltaT = 0.000111111
+Time = 0.044
+
+ExecutionTime = 3.48 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315086 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0441111
+
+ExecutionTime = 3.48 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315076 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0442222
+
+ExecutionTime = 3.49 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315061 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0443333
+
+ExecutionTime = 3.5 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315044 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0444444
+
+ExecutionTime = 3.51 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315028 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0445556
+
+ExecutionTime = 3.52 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315018 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0446667
+
+ExecutionTime = 3.52 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.315009 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0447778
+
+ExecutionTime = 3.53 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314999 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0448889
+
+ExecutionTime = 3.54 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314988 max: 0.89361
+deltaT = 0.000111111
+Time = 0.045
+
+ExecutionTime = 3.55 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314976 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0451111
+
+ExecutionTime = 3.56 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31496 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0452222
+
+ExecutionTime = 3.56 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314951 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0453333
+
+ExecutionTime = 3.57 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314945 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0454444
+
+ExecutionTime = 3.58 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314936 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0455556
+
+ExecutionTime = 3.59 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314926 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0456667
+
+ExecutionTime = 3.6 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314913 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0457778
+
+ExecutionTime = 3.6 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314896 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0458889
+
+ExecutionTime = 3.61 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314878 max: 0.89361
+deltaT = 0.000111111
+Time = 0.046
+
+ExecutionTime = 3.62 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314868 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0461111
+
+ExecutionTime = 3.63 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314859 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0462222
+
+ExecutionTime = 3.63 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314849 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0463333
+
+ExecutionTime = 3.64 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314838 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0464444
+
+ExecutionTime = 3.65 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314827 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0465556
+
+ExecutionTime = 3.66 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314812 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0466667
+
+ExecutionTime = 3.67 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314801 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0467778
+
+ExecutionTime = 3.67 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314794 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0468889
+
+ExecutionTime = 3.68 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314786 max: 0.89361
+deltaT = 0.000111111
+Time = 0.047
+
+ExecutionTime = 3.69 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314775 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0471111
+
+ExecutionTime = 3.7 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314763 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0472222
+
+ExecutionTime = 3.7 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314747 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0473333
+
+ExecutionTime = 3.71 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314727 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0474444
+
+ExecutionTime = 3.72 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314717 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0475556
+
+ExecutionTime = 3.73 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314708 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0476667
+
+ExecutionTime = 3.74 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314699 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0477778
+
+ExecutionTime = 3.74 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314688 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0478889
+
+ExecutionTime = 3.75 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314678 max: 0.89361
+deltaT = 0.000111111
+Time = 0.048
+
+ExecutionTime = 3.76 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314664 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0481111
+
+ExecutionTime = 3.77 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314651 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0482222
+
+ExecutionTime = 3.77 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314645 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0483333
+
+ExecutionTime = 3.78 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314637 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0484444
+
+ExecutionTime = 3.79 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314626 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0485556
+
+ExecutionTime = 3.8 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314615 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0486667
+
+ExecutionTime = 3.8 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314599 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0487778
+
+ExecutionTime = 3.81 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314581 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0488889
+
+ExecutionTime = 3.82 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314568 max: 0.89361
+deltaT = 0.000111111
+Time = 0.049
+
+ExecutionTime = 3.83 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314559 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0491111
+
+ExecutionTime = 3.84 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31455 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0492222
+
+ExecutionTime = 3.84 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314539 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0493333
+
+ExecutionTime = 3.85 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314529 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0494444
+
+ExecutionTime = 3.86 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314516 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0495556
+
+ExecutionTime = 3.87 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314501 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0496667
+
+ExecutionTime = 3.88 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314494 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0497778
+
+ExecutionTime = 3.88 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314487 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0498889
+
+ExecutionTime = 3.9 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314477 max: 0.89361
+deltaT = 0.000111111
+Time = 0.05
+
+ExecutionTime = 3.91 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314466 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0501111
+
+ExecutionTime = 3.92 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31445 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0502222
+
+ExecutionTime = 3.93 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314432 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0503333
+
+ExecutionTime = 3.93 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314417 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0504444
+
+ExecutionTime = 3.94 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314407 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0505556
+
+ExecutionTime = 3.95 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314399 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0506667
+
+ExecutionTime = 3.96 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314387 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0507778
+
+ExecutionTime = 3.97 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314377 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0508889
+
+ExecutionTime = 3.98 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314365 max: 0.89361
+deltaT = 0.000111111
+Time = 0.051
+
+ExecutionTime = 3.99 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31435 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0511111
+
+ExecutionTime = 4 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314342 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0512222
+
+ExecutionTime = 4.01 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314336 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0513333
+
+ExecutionTime = 4.01 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314326 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0514444
+
+ExecutionTime = 4.02 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314315 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0515556
+
+ExecutionTime = 4.03 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314301 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0516667
+
+ExecutionTime = 4.04 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314283 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0517778
+
+ExecutionTime = 4.05 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314267 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0518889
+
+ExecutionTime = 4.05 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314257 max: 0.89361
+deltaT = 0.000111111
+Time = 0.052
+
+ExecutionTime = 4.06 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314248 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0521111
+
+ExecutionTime = 4.07 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314238 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0522222
+
+ExecutionTime = 4.08 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314228 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0523333
+
+ExecutionTime = 4.09 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314217 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0524444
+
+ExecutionTime = 4.09 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314202 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0525556
+
+ExecutionTime = 4.1 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314193 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0526667
+
+ExecutionTime = 4.11 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314186 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0527778
+
+ExecutionTime = 4.11 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314177 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0528889
+
+ExecutionTime = 4.12 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314166 max: 0.89361
+deltaT = 0.000111111
+Time = 0.053
+
+ExecutionTime = 4.13 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314152 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0531111
+
+ExecutionTime = 4.14 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314135 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0532222
+
+ExecutionTime = 4.15 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314117 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0533333
+
+ExecutionTime = 4.15 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314107 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0534444
+
+ExecutionTime = 4.16 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314098 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0535556
+
+ExecutionTime = 4.17 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314088 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0536667
+
+ExecutionTime = 4.18 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314077 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0537778
+
+ExecutionTime = 4.19 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314066 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0538889
+
+ExecutionTime = 4.19 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314051 max: 0.89361
+deltaT = 0.000111111
+Time = 0.054
+
+ExecutionTime = 4.2 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314041 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0541111
+
+ExecutionTime = 4.21 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314034 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0542222
+
+ExecutionTime = 4.22 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314026 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0543333
+
+ExecutionTime = 4.23 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314015 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0544444
+
+ExecutionTime = 4.23 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.314002 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0545556
+
+ExecutionTime = 4.24 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313986 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0546667
+
+ExecutionTime = 4.25 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313967 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0547778
+
+ExecutionTime = 4.26 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313958 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0548889
+
+ExecutionTime = 4.27 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313948 max: 0.89361
+deltaT = 0.000111111
+Time = 0.055
+
+ExecutionTime = 4.27 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313939 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0551111
+
+ExecutionTime = 4.28 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313928 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0552222
+
+ExecutionTime = 4.29 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313917 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0553333
+
+ExecutionTime = 4.3 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313903 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0554444
+
+ExecutionTime = 4.31 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313891 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0555556
+
+ExecutionTime = 4.31 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313885 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0556667
+
+ExecutionTime = 4.32 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313877 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0557778
+
+ExecutionTime = 4.33 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313867 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0558889
+
+ExecutionTime = 4.33 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313855 max: 0.89361
+deltaT = 0.000111111
+Time = 0.056
+
+ExecutionTime = 4.34 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313839 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0561111
+
+ExecutionTime = 4.35 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313819 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0562222
+
+ExecutionTime = 4.36 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313808 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0563333
+
+ExecutionTime = 4.36 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313799 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0564444
+
+ExecutionTime = 4.37 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31379 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0565556
+
+ExecutionTime = 4.38 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313779 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0566667
+
+ExecutionTime = 4.39 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313768 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0567778
+
+ExecutionTime = 4.4 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313755 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0568889
+
+ExecutionTime = 4.4 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31374 max: 0.89361
+deltaT = 0.000111111
+Time = 0.057
+
+ExecutionTime = 4.41 s  ClockTime = 4 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313734 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0571111
+
+ExecutionTime = 4.42 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313726 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0572222
+
+ExecutionTime = 4.43 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313716 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0573333
+
+ExecutionTime = 4.44 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313705 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0574444
+
+ExecutionTime = 4.45 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313689 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0575556
+
+ExecutionTime = 4.46 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313672 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0576667
+
+ExecutionTime = 4.47 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313657 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0577778
+
+ExecutionTime = 4.48 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313648 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0578889
+
+ExecutionTime = 4.49 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313639 max: 0.89361
+deltaT = 0.000111111
+Time = 0.058
+
+ExecutionTime = 4.5 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313628 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0581111
+
+ExecutionTime = 4.51 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313618 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0582222
+
+ExecutionTime = 4.51 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313606 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0583333
+
+ExecutionTime = 4.52 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313592 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0584444
+
+ExecutionTime = 4.53 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313584 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0585556
+
+ExecutionTime = 4.54 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313577 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0586667
+
+ExecutionTime = 4.54 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313567 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0587778
+
+ExecutionTime = 4.55 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313556 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0588889
+
+ExecutionTime = 4.56 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313542 max: 0.89361
+deltaT = 0.000111111
+Time = 0.059
+
+ExecutionTime = 4.57 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313525 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0591111
+
+ExecutionTime = 4.58 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313509 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0592222
+
+ExecutionTime = 4.58 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3135 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0593333
+
+ExecutionTime = 4.59 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313491 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0594444
+
+ExecutionTime = 4.6 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31348 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0595556
+
+ExecutionTime = 4.61 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31347 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0596667
+
+ExecutionTime = 4.62 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313458 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0597778
+
+ExecutionTime = 4.62 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313443 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0598889
+
+ExecutionTime = 4.63 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313434 max: 0.89361
+deltaT = 0.000111111
+Time = 0.06
+
+ExecutionTime = 4.65 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313427 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0601111
+
+ExecutionTime = 4.65 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313418 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0602222
+
+ExecutionTime = 4.66 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313407 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0603333
+
+ExecutionTime = 4.67 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313393 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0604444
+
+ExecutionTime = 4.68 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313375 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0605556
+
+ExecutionTime = 4.68 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313358 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0606667
+
+ExecutionTime = 4.69 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313348 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0607778
+
+ExecutionTime = 4.7 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313339 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0608889
+
+ExecutionTime = 4.71 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313329 max: 0.89361
+deltaT = 0.000111111
+Time = 0.061
+
+ExecutionTime = 4.72 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313319 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0611111
+
+ExecutionTime = 4.72 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313308 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0612222
+
+ExecutionTime = 4.73 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313293 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0613333
+
+ExecutionTime = 4.74 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313283 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0614444
+
+ExecutionTime = 4.75 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313277 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0615556
+
+ExecutionTime = 4.76 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313268 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0616667
+
+ExecutionTime = 4.76 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313258 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0617778
+
+ExecutionTime = 4.77 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313245 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0618889
+
+ExecutionTime = 4.78 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313228 max: 0.89361
+deltaT = 0.000111111
+Time = 0.062
+
+ExecutionTime = 4.79 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313209 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0621111
+
+ExecutionTime = 4.8 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313199 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0622222
+
+ExecutionTime = 4.8 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313191 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0623333
+
+ExecutionTime = 4.81 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313182 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0624444
+
+ExecutionTime = 4.82 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313171 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0625556
+
+ExecutionTime = 4.83 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31316 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0626667
+
+ExecutionTime = 4.84 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313146 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0627778
+
+ExecutionTime = 4.84 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313134 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0628889
+
+ExecutionTime = 4.85 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313128 max: 0.89361
+deltaT = 0.000111111
+Time = 0.063
+
+ExecutionTime = 4.86 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31312 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0631111
+
+ExecutionTime = 4.87 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31311 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0632222
+
+ExecutionTime = 4.87 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313097 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0633333
+
+ExecutionTime = 4.88 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31308 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0634444
+
+ExecutionTime = 4.89 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313061 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0635556
+
+ExecutionTime = 4.9 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31305 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0636667
+
+ExecutionTime = 4.91 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31304 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0637778
+
+ExecutionTime = 4.91 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.313031 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0638889
+
+ExecutionTime = 4.92 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31302 max: 0.89361
+deltaT = 0.000111111
+Time = 0.064
+
+ExecutionTime = 4.93 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31301 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0641111
+
+ExecutionTime = 4.94 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312997 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0642222
+
+ExecutionTime = 4.95 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312982 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0643333
+
+ExecutionTime = 4.96 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312976 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0644444
+
+ExecutionTime = 4.96 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312969 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0645556
+
+ExecutionTime = 4.97 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312959 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0646667
+
+ExecutionTime = 4.98 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312948 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0647778
+
+ExecutionTime = 4.99 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312932 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0648889
+
+ExecutionTime = 5 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312915 max: 0.89361
+deltaT = 0.000111111
+Time = 0.065
+
+ExecutionTime = 5 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312901 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0651111
+
+ExecutionTime = 5.01 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312891 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0652222
+
+ExecutionTime = 5.02 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312883 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0653333
+
+ExecutionTime = 5.03 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312872 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0654444
+
+ExecutionTime = 5.03 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312862 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0655556
+
+ExecutionTime = 5.04 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31285 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0656667
+
+ExecutionTime = 5.05 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312835 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0657778
+
+ExecutionTime = 5.06 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312828 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0658889
+
+ExecutionTime = 5.07 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312821 max: 0.89361
+deltaT = 0.000111111
+Time = 0.066
+
+ExecutionTime = 5.08 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312812 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0661111
+
+ExecutionTime = 5.08 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312801 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0662222
+
+ExecutionTime = 5.09 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312786 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0663333
+
+ExecutionTime = 5.09 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312768 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0664444
+
+ExecutionTime = 5.1 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312752 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0665556
+
+ExecutionTime = 5.12 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312742 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0666667
+
+ExecutionTime = 5.12 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312733 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0667778
+
+ExecutionTime = 5.13 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312723 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0668889
+
+ExecutionTime = 5.14 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312712 max: 0.89361
+deltaT = 0.000111111
+Time = 0.067
+
+ExecutionTime = 5.15 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3127 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0671111
+
+ExecutionTime = 5.16 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312685 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0672222
+
+ExecutionTime = 5.16 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312676 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0673333
+
+ExecutionTime = 5.17 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312669 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0674444
+
+ExecutionTime = 5.18 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31266 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0675556
+
+ExecutionTime = 5.18 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312649 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0676667
+
+ExecutionTime = 5.19 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312636 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0677778
+
+ExecutionTime = 5.2 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312619 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0678889
+
+ExecutionTime = 5.21 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312601 max: 0.89361
+deltaT = 0.000111111
+Time = 0.068
+
+ExecutionTime = 5.22 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312592 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0681111
+
+ExecutionTime = 5.22 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312583 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0682222
+
+ExecutionTime = 5.23 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312574 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0683333
+
+ExecutionTime = 5.24 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312563 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0684444
+
+ExecutionTime = 5.25 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312552 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0685556
+
+ExecutionTime = 5.25 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312537 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0686667
+
+ExecutionTime = 5.26 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312527 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0687778
+
+ExecutionTime = 5.27 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312521 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0688889
+
+ExecutionTime = 5.28 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312512 max: 0.89361
+deltaT = 0.000111111
+Time = 0.069
+
+ExecutionTime = 5.29 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312502 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0691111
+
+ExecutionTime = 5.29 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312489 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0692222
+
+ExecutionTime = 5.3 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312473 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0693333
+
+ExecutionTime = 5.31 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312454 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0694444
+
+ExecutionTime = 5.32 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312444 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0695556
+
+ExecutionTime = 5.33 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312435 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0696667
+
+ExecutionTime = 5.33 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312426 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0697778
+
+ExecutionTime = 5.34 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312415 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0698889
+
+ExecutionTime = 5.35 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312404 max: 0.89361
+deltaT = 0.000111111
+Time = 0.07
+
+ExecutionTime = 5.36 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31239 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0701111
+
+ExecutionTime = 5.37 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312377 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0702222
+
+ExecutionTime = 5.38 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31237 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0703333
+
+ExecutionTime = 5.38 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312362 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0704444
+
+ExecutionTime = 5.39 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312352 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0705556
+
+ExecutionTime = 5.4 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31234 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0706667
+
+ExecutionTime = 5.41 s  ClockTime = 5 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312323 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0707778
+
+ExecutionTime = 5.42 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312304 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0708889
+
+ExecutionTime = 5.42 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312293 max: 0.89361
+deltaT = 0.000111111
+Time = 0.071
+
+ExecutionTime = 5.43 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312284 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0711111
+
+ExecutionTime = 5.44 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312275 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0712222
+
+ExecutionTime = 5.45 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312264 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0713333
+
+ExecutionTime = 5.46 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312254 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0714444
+
+ExecutionTime = 5.46 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312241 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0715556
+
+ExecutionTime = 5.47 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312227 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0716667
+
+ExecutionTime = 5.48 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312221 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0717778
+
+ExecutionTime = 5.49 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312213 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0718889
+
+ExecutionTime = 5.5 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312204 max: 0.89361
+deltaT = 0.000111111
+Time = 0.072
+
+ExecutionTime = 5.5 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312193 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0721111
+
+ExecutionTime = 5.51 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312177 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0722222
+
+ExecutionTime = 5.52 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312159 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0723333
+
+ExecutionTime = 5.53 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312145 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0724444
+
+ExecutionTime = 5.54 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312136 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0725556
+
+ExecutionTime = 5.54 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312128 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0726667
+
+ExecutionTime = 5.56 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312117 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0727778
+
+ExecutionTime = 5.57 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312107 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0728889
+
+ExecutionTime = 5.57 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312095 max: 0.89361
+deltaT = 0.000111111
+Time = 0.073
+
+ExecutionTime = 5.58 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31208 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0731111
+
+ExecutionTime = 5.59 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312072 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0732222
+
+ExecutionTime = 5.6 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312065 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0733333
+
+ExecutionTime = 5.61 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312055 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0734444
+
+ExecutionTime = 5.61 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312044 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0735556
+
+ExecutionTime = 5.62 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312029 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0736667
+
+ExecutionTime = 5.63 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.312011 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0737778
+
+ExecutionTime = 5.64 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311995 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0738889
+
+ExecutionTime = 5.65 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311985 max: 0.89361
+deltaT = 0.000111111
+Time = 0.074
+
+ExecutionTime = 5.66 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311976 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0741111
+
+ExecutionTime = 5.66 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311966 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0742222
+
+ExecutionTime = 5.67 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311956 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0743333
+
+ExecutionTime = 5.68 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311944 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0744444
+
+ExecutionTime = 5.69 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311929 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0745556
+
+ExecutionTime = 5.7 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311921 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0746667
+
+ExecutionTime = 5.7 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311914 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0747778
+
+ExecutionTime = 5.71 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311905 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0748889
+
+ExecutionTime = 5.72 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311895 max: 0.89361
+deltaT = 0.000111111
+Time = 0.075
+
+ExecutionTime = 5.73 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311881 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0751111
+
+ExecutionTime = 5.74 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311864 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0752222
+
+ExecutionTime = 5.74 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311847 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0753333
+
+ExecutionTime = 5.75 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311837 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0754444
+
+ExecutionTime = 5.76 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311829 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0755556
+
+ExecutionTime = 5.77 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311819 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0756667
+
+ExecutionTime = 5.78 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311809 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0757778
+
+ExecutionTime = 5.78 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311798 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0758889
+
+ExecutionTime = 5.79 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311783 max: 0.89361
+deltaT = 0.000111111
+Time = 0.076
+
+ExecutionTime = 5.8 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311774 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0761111
+
+ExecutionTime = 5.81 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311767 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0762222
+
+ExecutionTime = 5.82 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311758 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0763333
+
+ExecutionTime = 5.82 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311748 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0764444
+
+ExecutionTime = 5.83 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311735 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0765556
+
+ExecutionTime = 5.84 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311718 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0766667
+
+ExecutionTime = 5.84 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311699 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0767778
+
+ExecutionTime = 5.85 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311689 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0768889
+
+ExecutionTime = 5.86 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311679 max: 0.89361
+deltaT = 0.000111111
+Time = 0.077
+
+ExecutionTime = 5.87 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31167 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0771111
+
+ExecutionTime = 5.88 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311659 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0772222
+
+ExecutionTime = 5.88 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311648 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0773333
+
+ExecutionTime = 5.89 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311634 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0774444
+
+ExecutionTime = 5.9 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311621 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0775556
+
+ExecutionTime = 5.91 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311615 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0776667
+
+ExecutionTime = 5.92 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311607 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0777778
+
+ExecutionTime = 5.92 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311597 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0778889
+
+ExecutionTime = 5.93 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311585 max: 0.89361
+deltaT = 0.000111111
+Time = 0.078
+
+ExecutionTime = 5.94 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311569 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0781111
+
+ExecutionTime = 5.95 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31155 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0782222
+
+ExecutionTime = 5.96 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311539 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0783333
+
+ExecutionTime = 5.96 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311529 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0784444
+
+ExecutionTime = 5.97 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311521 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0785556
+
+ExecutionTime = 5.98 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31151 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0786667
+
+ExecutionTime = 5.99 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3115 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0787778
+
+ExecutionTime = 6 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311488 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0788889
+
+ExecutionTime = 6.01 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311473 max: 0.89361
+deltaT = 0.000111111
+Time = 0.079
+
+ExecutionTime = 6.01 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311467 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0791111
+
+ExecutionTime = 6.02 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31146 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0792222
+
+ExecutionTime = 6.03 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31145 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0793333
+
+ExecutionTime = 6.04 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31144 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0794444
+
+ExecutionTime = 6.05 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311424 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0795556
+
+ExecutionTime = 6.05 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311406 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0796667
+
+ExecutionTime = 6.06 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311391 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0797778
+
+ExecutionTime = 6.07 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311382 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0798889
+
+ExecutionTime = 6.08 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311373 max: 0.89361
+deltaT = 0.000111111
+Time = 0.08
+
+ExecutionTime = 6.09 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311362 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0801111
+
+ExecutionTime = 6.1 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311352 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0802222
+
+ExecutionTime = 6.11 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311339 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0803333
+
+ExecutionTime = 6.11 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311324 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0804444
+
+ExecutionTime = 6.12 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311316 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0805556
+
+ExecutionTime = 6.13 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311309 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0806667
+
+ExecutionTime = 6.14 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311299 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0807778
+
+ExecutionTime = 6.15 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311288 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0808889
+
+ExecutionTime = 6.15 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311273 max: 0.89361
+deltaT = 0.000111111
+Time = 0.081
+
+ExecutionTime = 6.16 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311256 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0811111
+
+ExecutionTime = 6.18 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31124 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0812222
+
+ExecutionTime = 6.18 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31123 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0813333
+
+ExecutionTime = 6.19 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311222 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0814444
+
+ExecutionTime = 6.2 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311212 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0815556
+
+ExecutionTime = 6.2 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311202 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0816667
+
+ExecutionTime = 6.21 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311191 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0817778
+
+ExecutionTime = 6.22 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311175 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0818889
+
+ExecutionTime = 6.23 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311167 max: 0.89361
+deltaT = 0.000111111
+Time = 0.082
+
+ExecutionTime = 6.24 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31116 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0821111
+
+ExecutionTime = 6.24 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311152 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0822222
+
+ExecutionTime = 6.26 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311142 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0823333
+
+ExecutionTime = 6.27 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311128 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0824444
+
+ExecutionTime = 6.27 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311111 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0825556
+
+ExecutionTime = 6.28 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311094 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0826667
+
+ExecutionTime = 6.29 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311084 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0827778
+
+ExecutionTime = 6.3 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311076 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0828889
+
+ExecutionTime = 6.31 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311066 max: 0.89361
+deltaT = 0.000111111
+Time = 0.083
+
+ExecutionTime = 6.31 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311056 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0831111
+
+ExecutionTime = 6.32 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311045 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0832222
+
+ExecutionTime = 6.33 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311029 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0833333
+
+ExecutionTime = 6.34 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311019 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0834444
+
+ExecutionTime = 6.35 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311012 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0835556
+
+ExecutionTime = 6.35 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.311003 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0836667
+
+ExecutionTime = 6.36 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310992 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0837778
+
+ExecutionTime = 6.37 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310979 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0838889
+
+ExecutionTime = 6.38 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310962 max: 0.89361
+deltaT = 0.000111111
+Time = 0.084
+
+ExecutionTime = 6.39 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310943 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0841111
+
+ExecutionTime = 6.39 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310932 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0842222
+
+ExecutionTime = 6.4 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310923 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0843333
+
+ExecutionTime = 6.41 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310914 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0844444
+
+ExecutionTime = 6.42 s  ClockTime = 6 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310903 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0845556
+
+ExecutionTime = 6.43 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310893 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0846667
+
+ExecutionTime = 6.43 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310879 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0847778
+
+ExecutionTime = 6.44 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310867 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0848889
+
+ExecutionTime = 6.45 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31086 max: 0.89361
+deltaT = 0.000111111
+Time = 0.085
+
+ExecutionTime = 6.46 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310852 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0851111
+
+ExecutionTime = 6.46 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310843 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0852222
+
+ExecutionTime = 6.47 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310831 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0853333
+
+ExecutionTime = 6.48 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310815 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0854444
+
+ExecutionTime = 6.49 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310796 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0855556
+
+ExecutionTime = 6.5 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310784 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0856667
+
+ExecutionTime = 6.51 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310776 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0857778
+
+ExecutionTime = 6.52 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310767 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0858889
+
+ExecutionTime = 6.52 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310757 max: 0.89361
+deltaT = 0.000111111
+Time = 0.086
+
+ExecutionTime = 6.53 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310747 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0861111
+
+ExecutionTime = 6.54 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310735 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0862222
+
+ExecutionTime = 6.55 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31072 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0863333
+
+ExecutionTime = 6.56 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310714 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0864444
+
+ExecutionTime = 6.56 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310706 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0865556
+
+ExecutionTime = 6.57 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310696 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0866667
+
+ExecutionTime = 6.58 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310685 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0867778
+
+ExecutionTime = 6.59 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310669 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0868889
+
+ExecutionTime = 6.6 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310651 max: 0.89361
+deltaT = 0.000111111
+Time = 0.087
+
+ExecutionTime = 6.61 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310636 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0871111
+
+ExecutionTime = 6.61 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310626 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0872222
+
+ExecutionTime = 6.62 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310617 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0873333
+
+ExecutionTime = 6.63 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310606 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0874444
+
+ExecutionTime = 6.64 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310596 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0875556
+
+ExecutionTime = 6.65 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310584 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0876667
+
+ExecutionTime = 6.65 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310569 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0877778
+
+ExecutionTime = 6.66 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310561 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0878889
+
+ExecutionTime = 6.67 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310554 max: 0.89361
+deltaT = 0.000111111
+Time = 0.088
+
+ExecutionTime = 6.68 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310545 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0881111
+
+ExecutionTime = 6.68 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310534 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0882222
+
+ExecutionTime = 6.69 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310519 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0883333
+
+ExecutionTime = 6.7 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310502 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0884444
+
+ExecutionTime = 6.71 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310486 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0885556
+
+ExecutionTime = 6.71 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310476 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0886667
+
+ExecutionTime = 6.72 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310468 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0887778
+
+ExecutionTime = 6.73 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310458 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0888889
+
+ExecutionTime = 6.74 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310448 max: 0.89361
+deltaT = 0.000111111
+Time = 0.089
+
+ExecutionTime = 6.75 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310437 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0891111
+
+ExecutionTime = 6.75 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310423 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0892222
+
+ExecutionTime = 6.76 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310414 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0893333
+
+ExecutionTime = 6.77 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310407 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0894444
+
+ExecutionTime = 6.78 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310399 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0895556
+
+ExecutionTime = 6.79 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310389 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0896667
+
+ExecutionTime = 6.79 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310375 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0897778
+
+ExecutionTime = 6.8 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310358 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0898889
+
+ExecutionTime = 6.81 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31034 max: 0.89361
+deltaT = 0.000111111
+Time = 0.09
+
+ExecutionTime = 6.82 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31033 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0901111
+
+ExecutionTime = 6.83 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310321 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0902222
+
+ExecutionTime = 6.84 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310311 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0903333
+
+ExecutionTime = 6.85 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3103 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0904444
+
+ExecutionTime = 6.86 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310289 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0905556
+
+ExecutionTime = 6.86 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310274 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0906667
+
+ExecutionTime = 6.87 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310263 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0907778
+
+ExecutionTime = 6.88 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310256 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0908889
+
+ExecutionTime = 6.89 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310247 max: 0.89361
+deltaT = 0.000111111
+Time = 0.091
+
+ExecutionTime = 6.9 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310237 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0911111
+
+ExecutionTime = 6.91 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310224 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0912222
+
+ExecutionTime = 6.91 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310207 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0913333
+
+ExecutionTime = 6.92 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310188 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0914444
+
+ExecutionTime = 6.93 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310179 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0915556
+
+ExecutionTime = 6.94 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310169 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0916667
+
+ExecutionTime = 6.95 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31016 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0917778
+
+ExecutionTime = 6.95 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31015 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0918889
+
+ExecutionTime = 6.96 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310139 max: 0.89361
+deltaT = 0.000111111
+Time = 0.092
+
+ExecutionTime = 6.97 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310126 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0921111
+
+ExecutionTime = 6.98 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310113 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0922222
+
+ExecutionTime = 6.99 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310107 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0923333
+
+ExecutionTime = 6.99 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310099 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0924444
+
+ExecutionTime = 7 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.31009 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0925556
+
+ExecutionTime = 7.01 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310078 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0926667
+
+ExecutionTime = 7.02 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310062 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0927778
+
+ExecutionTime = 7.03 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310043 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0928889
+
+ExecutionTime = 7.03 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310031 max: 0.89361
+deltaT = 0.000111111
+Time = 0.093
+
+ExecutionTime = 7.04 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310023 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0931111
+
+ExecutionTime = 7.05 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310014 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0932222
+
+ExecutionTime = 7.06 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.310003 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0933333
+
+ExecutionTime = 7.07 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309993 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0934444
+
+ExecutionTime = 7.07 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.30998 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0935556
+
+ExecutionTime = 7.08 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309965 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0936667
+
+ExecutionTime = 7.09 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309958 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0937778
+
+ExecutionTime = 7.1 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.30995 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0938889
+
+ExecutionTime = 7.11 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.30994 max: 0.89361
+deltaT = 0.000111111
+Time = 0.094
+
+ExecutionTime = 7.11 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309929 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0941111
+
+ExecutionTime = 7.13 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309912 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0942222
+
+ExecutionTime = 7.14 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309895 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0943333
+
+ExecutionTime = 7.14 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309879 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0944444
+
+ExecutionTime = 7.15 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.30987 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0945556
+
+ExecutionTime = 7.16 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309861 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0946667
+
+ExecutionTime = 7.17 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.30985 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0947778
+
+ExecutionTime = 7.17 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309841 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0948889
+
+ExecutionTime = 7.18 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309829 max: 0.89361
+deltaT = 0.000111111
+Time = 0.095
+
+ExecutionTime = 7.19 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309813 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0951111
+
+ExecutionTime = 7.2 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309806 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0952222
+
+ExecutionTime = 7.2 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309799 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0953333
+
+ExecutionTime = 7.22 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.30979 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0954444
+
+ExecutionTime = 7.23 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309779 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0955556
+
+ExecutionTime = 7.24 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309764 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0956667
+
+ExecutionTime = 7.24 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309748 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0957778
+
+ExecutionTime = 7.25 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309731 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0958889
+
+ExecutionTime = 7.26 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309722 max: 0.89361
+deltaT = 0.000111111
+Time = 0.096
+
+ExecutionTime = 7.27 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309714 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0961111
+
+ExecutionTime = 7.28 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309704 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0962222
+
+ExecutionTime = 7.28 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309694 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0963333
+
+ExecutionTime = 7.29 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309683 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0964444
+
+ExecutionTime = 7.3 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309668 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0965556
+
+ExecutionTime = 7.31 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309659 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0966667
+
+ExecutionTime = 7.32 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309652 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0967778
+
+ExecutionTime = 7.32 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309643 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0968889
+
+ExecutionTime = 7.33 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309633 max: 0.89361
+deltaT = 0.000111111
+Time = 0.097
+
+ExecutionTime = 7.34 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309619 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0971111
+
+ExecutionTime = 7.35 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309601 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0972222
+
+ExecutionTime = 7.36 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309583 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0973333
+
+ExecutionTime = 7.36 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309573 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0974444
+
+ExecutionTime = 7.37 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309564 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0975556
+
+ExecutionTime = 7.38 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309554 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0976667
+
+ExecutionTime = 7.39 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309543 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0977778
+
+ExecutionTime = 7.39 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309532 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0978889
+
+ExecutionTime = 7.4 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309517 max: 0.89361
+deltaT = 0.000111111
+Time = 0.098
+
+ExecutionTime = 7.41 s  ClockTime = 7 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309506 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0981111
+
+ExecutionTime = 7.42 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.3095 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0982222
+
+ExecutionTime = 7.43 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309491 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0983333
+
+ExecutionTime = 7.43 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309481 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0984444
+
+ExecutionTime = 7.44 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309469 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0985556
+
+ExecutionTime = 7.45 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309452 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0986667
+
+ExecutionTime = 7.46 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309433 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0987778
+
+ExecutionTime = 7.47 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309423 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0988889
+
+ExecutionTime = 7.47 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309414 max: 0.89361
+deltaT = 0.000111111
+Time = 0.099
+
+ExecutionTime = 7.48 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309405 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0991111
+
+ExecutionTime = 7.49 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309395 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0992222
+
+ExecutionTime = 7.49 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309385 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0993333
+
+ExecutionTime = 7.5 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309372 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0994444
+
+ExecutionTime = 7.51 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309359 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0995556
+
+ExecutionTime = 7.52 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309353 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0996667
+
+ExecutionTime = 7.53 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309345 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0997778
+
+ExecutionTime = 7.53 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309335 max: 0.89361
+deltaT = 0.000111111
+Time = 0.0998889
+
+ExecutionTime = 7.54 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+Courant Number mean: 0.309324 max: 0.89361
+deltaT = 0.000111111
+Time = 0.1
+
+ExecutionTime = 7.56 s  ClockTime = 8 s
+max(div(Bf)) = 0  average(div(Bf)) = 0
+
+
+End
+

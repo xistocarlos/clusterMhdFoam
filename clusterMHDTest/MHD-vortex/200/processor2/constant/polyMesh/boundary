@@ -1,0 +1,82 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+7
+(
+    front-back
+    {
+        type            empty;
+        nFaces          20000;
+        startFace       19800;
+    }
+    periodic_half0
+    {
+        type            cyclic;
+        nFaces          0;
+        startFace       39800;
+        matchTolerance  0.0001;
+        neighbourPatch  periodic_half1;
+    }
+    periodic_half1
+    {
+        type            cyclic;
+        nFaces          0;
+        startFace       39800;
+        matchTolerance  0.0001;
+        neighbourPatch  periodic_half0;
+    }
+    procBoundary2to0
+    {
+        type            processor;
+        nFaces          100;
+        startFace       39800;
+        matchTolerance  0.0001;
+        myProcNo        2;
+        neighbProcNo    0;
+    }
+    procBoundary2to0throughperiodic_half0
+    {
+        type            processorCyclic;
+        nFaces          100;
+        startFace       39900;
+        matchTolerance  0.0001;
+        myProcNo        2;
+        neighbProcNo    0;
+        referPatch      periodic_half0;
+    }
+    procBoundary2to3
+    {
+        type            processor;
+        nFaces          100;
+        startFace       40000;
+        matchTolerance  0.0001;
+        myProcNo        2;
+        neighbProcNo    3;
+    }
+    procBoundary2to3throughperiodic_half0
+    {
+        type            processorCyclic;
+        nFaces          100;
+        startFace       40100;
+        matchTolerance  0.0001;
+        myProcNo        2;
+        neighbProcNo    3;
+        referPatch      periodic_half0;
+    }
+)
+
+// ************************************************************************* //

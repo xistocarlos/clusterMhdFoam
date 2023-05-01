@@ -1,0 +1,61 @@
+FoamFile
+{
+    version         2.0;
+    format          ascii;
+
+
+    instance        "system";
+    local           "";
+
+    class           dictionary;
+    object          funkySetFieldsDict;
+}
+
+
+expressions
+(
+
+
+	regiao_1
+	{
+		field U;
+		expression "vector( 0.0 - (0.1*sin(2*pi*(pos().x*cos(30*pi/180) + pos().y*sin(30*pi/180))))*sin(30*pi/180), (0.1*sin(2*pi*(pos().x*cos(30*pi/180) + pos().y*sin(30*pi/180))))*cos(30*pi/180) , 0.1*cos(2*pi*(pos().x*cos(30*pi/180) + pos().y*sin(30*pi/180))))";
+
+          
+ 
+	}
+
+
+	regiao_1
+	{
+		field p;
+		expression "0.1";
+          
+ 
+	}
+
+
+
+	regiao_1
+	{
+		field T;
+		expression "0.5";
+
+	}
+
+
+
+
+	regiao_1
+	{
+		field B;
+		expression "vector( cos(30*pi/180) - (0.1*sin(2*pi*(pos().x*cos(30*pi/180) + pos().y*sin(30*pi/180))))*sin(30*pi/180), sin(30*pi/180) + (0.1*sin(2*pi*(pos().x*cos(30*pi/180) + pos().y*sin(30*pi/180))))*cos(30*pi/180) , 0.1*cos(2*pi*(pos().x*cos(30*pi/180) + pos().y*sin(30*pi/180))))";
+		
+	}
+
+
+
+
+	);
+
+

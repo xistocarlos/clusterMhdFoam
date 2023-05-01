@@ -1,0 +1,3 @@
+clusterMHDFoam.C
+
+EXE = $(FOAM_APPBIN)/clusterMHDFoam
